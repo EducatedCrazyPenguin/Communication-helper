@@ -1,0 +1,1 @@
+"""Communication Gym domain contracts."""

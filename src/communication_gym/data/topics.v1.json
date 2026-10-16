@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "exercises": [
+    {
+      "id": "4338a04f-3144-58dd-9194-77f2b0a8f5ed",
+      "mode": "explain",
+      "title": "A helpful daily routine",
+      "audience": "A friend who has not tried it",
+      "prompts": {
+        "en": "Explain a daily routine that helps you. Say what it is, how it works and when it is useful.",
+        "hi": "अपनी मदद करने वाली एक रोज़ की आदत समझाइए। वह क्या है, कैसे काम करती है और कब उपयोगी है?",
+        "hinglish": "Ek useful daily routine explain karo: kya hai, kaise work karta hai aur kab help karta hai."
+      }
+    },
+    {
+      "id": "45bee6b6-46ff-5038-b95a-6809138b4694",
+      "mode": "explain",
+      "title": "How to choose a route",
+      "audience": "A new colleague visiting the office",
+      "prompts": {
+        "en": "Explain how you would choose between two routes to work. State the decision steps and tradeoffs.",
+        "hi": "दफ़्तर जाने के दो रास्तों में चुनाव कैसे करेंगे? कदम और समझौते साफ़ बताइए।",
+        "hinglish": "Office ke do routes mein choose kaise karoge? Decision steps aur tradeoffs clear karo."
+      }
+    },
+    {
+      "id": "4fa82c69-3668-51e0-868b-7fc0691ac776",
+      "mode": "explain",
+      "title": "A small personal system",
+      "audience": "A friend organizing shared tasks",
+      "prompts": {
+        "en": "Explain a simple way to track shared household tasks without assuming the listener knows your system.",
+        "hi": "घर के साझा काम याद रखने का एक आसान तरीका समझाइए। सुनने वाले को आपका तरीका पहले से नहीं पता।",
+        "hinglish": "Shared household tasks track karne ka simple system explain karo; listener ko pehle se context nahi hai."
+      }
+    },
+    {
+      "id": "b3983c51-f131-5216-8546-bfa4ea049f6c",
+      "mode": "compare",
+      "title": "Battery A and Battery B",
+      "audience": "A teammate new to the device",
+      "prompts": {
+        "en": "Compare Battery A and Battery B in a fictional device. Choose and state their roles and relevant differences, then explain what those differences mean for use. Do not assume the listener knows the device.",
+        "hi": "एक काल्पनिक उपकरण की बैटरी A और बैटरी B की तुलना कीजिए। उनकी भूमिकाएँ और ज़रूरी अंतर खुद तय करके स्पष्ट बताइए, फिर उपयोग पर असर समझाइए।",
+        "hinglish": "Ek fictional device ki Battery A aur Battery B compare karo. Unke roles aur relevant differences choose karke explicitly batao, phir usage par effect explain karo."
+      }
+    },
+    {
+      "id": "9cf6410a-631d-5522-ad86-c793d02f564f",
+      "mode": "compare",
+      "title": "Train or bus",
+      "audience": "A friend planning the same trip",
+      "prompts": {
+        "en": "Compare taking a train and a bus for a fictional weekend trip. Name your comparison dimensions and recommendation.",
+        "hi": "एक काल्पनिक सप्ताहांत यात्रा के लिए ट्रेन और बस की तुलना कीजिए। तुलना के आधार और सुझाव साफ़ रखिए।",
+        "hinglish": "Fictional weekend trip ke liye train aur bus compare karo; dimensions name karo aur recommendation do."
+      }
+    },
+    {
+      "id": "c85d9ab2-8675-5d49-b8aa-0e6e179d2f0f",
+      "mode": "compare",
+      "title": "Two note-taking approaches",
+      "audience": "A classmate choosing a study method",
+      "prompts": {
+        "en": "Compare paper notes and digital notes for a study task. Explain the important differences and when you would choose each.",
+        "hi": "पढ़ाई के एक काम के लिए कागज़ और डिजिटल नोट्स की तुलना कीजिए। महत्वपूर्ण अंतर और किस स्थिति में कौन सा चुनेंगे, बताइए।",
+        "hinglish": "Study task ke liye paper notes aur digital notes compare karo: key differences aur kab kya choose karoge."
+      }
+    },
+    {
+      "id": "c8ea3f1b-6fda-5a34-9b3f-749c9c6a8e56",
+      "mode": "work_update",
+      "title": "A delayed small project",
+      "audience": "Your team lead with two minutes available",
+      "prompts": {
+        "en": "Give a fictional project update: current status, what changed, impact, next step and any help needed.",
+        "hi": "एक काल्पनिक परियोजना की स्थिति बताइए: अभी कहाँ पहुँची, क्या बदला, असर, अगला कदम और ज़रूरी मदद।",
+        "hinglish": "Fictional project update do: status, kya change hua, impact, next step aur required help."
+      }
+    },
+    {
+      "id": "4278843d-d3de-5aa9-ab80-a88a55389128",
+      "mode": "work_update",
+      "title": "An experiment result",
+      "audience": "A teammate returning after a day away",
+      "prompts": {
+        "en": "Report a fictional test result. Start with the result, then explain evidence, remaining uncertainty and your next action.",
+        "hi": "एक काल्पनिक परीक्षण का परिणाम बताइए। पहले नतीजा, फिर प्रमाण, बची अनिश्चितता और अगला काम।",
+        "hinglish": "Fictional test ka update do: result first, then evidence, uncertainty aur next action."
+      }
+    },
+    {
+      "id": "ffcb3460-a8fe-57d7-94a0-0dcc50c8732d",
+      "mode": "work_update",
+      "title": "A handoff",
+      "audience": "A colleague taking over tomorrow",
+      "prompts": {
+        "en": "Hand off a fictional task. State what is finished, what remains, risks and who owns the next step.",
+        "hi": "कल काम सँभालने वाले सहकर्मी को काल्पनिक काम सौंपिए। पूरा और बाकी काम, जोखिम और अगले कदम की ज़िम्मेदारी बताइए।",
+        "hinglish": "Kal task take over karne wale colleague ko handoff do: done, remaining, risks aur next owner."
+      }
+    },
+    {
+      "id": "6de9d5f1-923b-567c-9e01-c1c00d101fd7",
+      "mode": "proposal",
+      "title": "A quieter meeting routine",
+      "audience": "A small team deciding its weekly routine",
+      "prompts": {
+        "en": "Propose one change to a fictional weekly meeting. State the problem, benefit, cost, risk and precise ask.",
+        "hi": "काल्पनिक साप्ताहिक बैठक में एक बदलाव सुझाइए। समस्या, लाभ, लागत, जोखिम और स्पष्ट अनुरोध रखिए।",
+        "hinglish": "Fictional weekly meeting mein ek change propose karo: problem, value, cost, risk aur specific ask."
+      }
+    },
+    {
+      "id": "a1bb5a1c-2ba5-597f-87e3-84ab12c8eefb",
+      "mode": "proposal",
+      "title": "A shared checklist",
+      "audience": "A colleague skeptical of extra process",
+      "prompts": {
+        "en": "Propose a small checklist for a recurring fictional task. Explain why it helps and request a bounded trial.",
+        "hi": "बार-बार होने वाले काल्पनिक काम के लिए छोटी जाँच-सूची सुझाइए। उपयोगिता और सीमित परीक्षण का अनुरोध बताइए।",
+        "hinglish": "Recurring fictional task ke liye small checklist propose karo, benefit explain karo aur bounded trial ask karo."
+      }
+    },
+    {
+      "id": "f9cbb9fc-175b-5429-85bf-bbd89074f83d",
+      "mode": "proposal",
+      "title": "A study session",
+      "audience": "Three friends with limited free time",
+      "prompts": {
+        "en": "Propose a shared study session with a clear goal, time cost, alternative and next decision.",
+        "hi": "कम समय वाले दोस्तों को साझा पढ़ाई का सत्र सुझाइए। उद्देश्य, समय, विकल्प और अगला निर्णय साफ़ रखिए।",
+        "hinglish": "Friends ko shared study session propose karo: clear goal, time cost, alternative aur next decision."
+      }
+    },
+    {
+      "id": "aea075d3-eae3-5cf8-b928-c6a4394fb6e6",
+      "mode": "technical_explanation",
+      "title": "A queue in a simple app",
+      "audience": "A colleague with no background in queues",
+      "prompts": {
+        "en": "Explain a fictional app queue. Define the parts, their relationship, why the queue exists and what happens on failure.",
+        "hi": "एक काल्पनिक ऐप की कतार समझाइए। हिस्से, उनका संबंध, कतार की ज़रूरत और विफलता का असर साफ़ कीजिए।",
+        "hinglish": "Fictional app ki queue explain karo: parts define karo, relation, purpose aur failure behavior batao."
+      }
+    },
+    {
+      "id": "35352885-3f5e-57ea-9d98-3596950be9ea",
+      "mode": "technical_explanation",
+      "title": "Caching a result",
+      "audience": "A new engineer reviewing a small design",
+      "prompts": {
+        "en": "Explain caching in a fictional service. Name what is cached, when it expires and the tradeoff, without relying on unexplained jargon.",
+        "hi": "काल्पनिक सेवा में कैश समझाइए। क्या रखा जाता है, कब हटता है और समझौता क्या है? शब्दजाल को परिभाषित कीजिए।",
+        "hinglish": "Fictional service ka cache explain karo: kya cache hota hai, expiry kab aur tradeoff kya hai; jargon ground karo."
+      }
+    },
+    {
+      "id": "2ad44ef8-5382-5e74-a73b-2ef6d5051ba3",
+      "mode": "technical_explanation",
+      "title": "A safe file handoff",
+      "audience": "A teammate operating a small tool",
+      "prompts": {
+        "en": "Explain a fictional file-processing pipeline. State input, stages, output and how a failed stage is handled.",
+        "hi": "एक काल्पनिक फ़ाइल प्रक्रिया समझाइए। इनपुट, चरण, आउटपुट और विफल चरण सँभालने का तरीका बताइए।",
+        "hinglish": "Fictional file-processing pipeline explain karo: input, stages, output aur failed stage handling."
+      }
+    },
+    {
+      "id": "02205c13-54de-57ce-95e3-30e7ba2161d2",
+      "mode": "interview",
+      "title": "A difficult choice",
+      "audience": "An interviewer who does not know your example",
+      "prompts": {
+        "en": "Use a fictional example to answer: tell me about a difficult decision. State context, options, your choice, result and limits.",
+        "hi": "काल्पनिक उदाहरण से कठिन निर्णय के बारे में जवाब दीजिए। संदर्भ, विकल्प, फैसला, नतीजा और सीमाएँ बताइए।",
+        "hinglish": "Fictional example se difficult decision answer karo: context, options, choice, result aur limits."
+      }
+    },
+    {
+      "id": "a0ef00b3-1b66-5aaf-aad7-fb478b23fcc8",
+      "mode": "interview",
+      "title": "Explaining a mistake",
+      "audience": "An interviewer interested in your reasoning",
+      "prompts": {
+        "en": "Use a fictional mistake to explain what happened, your responsibility, what changed and what remains uncertain.",
+        "hi": "काल्पनिक गलती से बताइए क्या हुआ, आपकी ज़िम्मेदारी, क्या बदला और क्या अनिश्चित है।",
+        "hinglish": "Fictional mistake explain karo: kya hua, responsibility, kya change hua aur uncertainty."
+      }
+    },
+    {
+      "id": "9f4cf728-adf6-5187-b5ae-ab9c8f303e1c",
+      "mode": "interview",
+      "title": "An unfamiliar request",
+      "audience": "A colleague testing how you clarify requirements",
+      "prompts": {
+        "en": "Answer a fictional unclear request. Explain what you understand, what you would ask and what you cannot commit to yet.",
+        "hi": "एक काल्पनिक अस्पष्ट अनुरोध का जवाब दीजिए। अपनी समझ, पूछे जाने वाले सवाल और अभी न किए जा सकने वाले वादे बताइए।",
+        "hinglish": "Fictional unclear request ka answer do: current understanding, clarification questions aur abhi kya commit nahi kar sakte."
+      }
+    }
+  ]
+}

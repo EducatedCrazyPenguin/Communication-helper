@@ -1,0 +1,19 @@
+[project]
+name = "communication-gym"
+version = "0.1.0"
+description = "Local-first structure and listener-understanding practice"
+requires-python = ">=3.12,<3.13"
+license = "AGPL-3.0-only"
+dependencies = ["fastapi>=0.115,<1", "uvicorn>=0.34,<1", "pydantic>=2.10,<3", "sqlalchemy>=2,<3", "alembic>=1.14,<2", "httpx>=0.28,<1", "jinja2>=3.1,<4", "python-multipart>=0.0.20", "platformdirs>=4,<5", "keyring>=25,<26", "filelock>=3.16,<4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9", "pytest-asyncio>=0.25,<2", "playwright>=1.50,<2"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+markers = ["real_services: opt-in cached local inference", "browser: opt-in installed Edge surface checks"]
+testpaths = ["tests"]

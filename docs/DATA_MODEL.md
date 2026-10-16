@@ -1,0 +1,3 @@
+# Data model
+
+UUID IDs and UTC timestamps identify sessions/exercises, attempts, recordings, immutable transcript revisions/segments/word timings, analyses/issues/evidence/scores/listener/feedback, questions/answers, comparisons, recurring patterns/goals, jobs and deletion tasks. SQLite foreign keys and revision checks protect ownership and updates. Original ASR and human corrections are distinct. Audio files and original recognizer JSON are referenced by managed relative paths. Alembic owns schema changes; unknown newer schemas are rejected. Original raw chunks, stitched text, timing origin and alignment score type remain distinct.

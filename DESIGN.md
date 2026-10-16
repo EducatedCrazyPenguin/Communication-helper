@@ -1,0 +1,3 @@
+# Design system
+
+Approved task-focused notebook. Operate mode: one session at a time, original question always visible. Light neutral surface (#f7f8fa), white work surface, dark ink (#172333), muted ink (#4b5b70), one blue accent (#174ea6); system dark counterpart (#141b25/#1d2735/#eef2f8/#a7c8ff). Segoe UI/Nirmala UI, 16px body, 1.6 line height, readable 72ch text. 8px spacing base, 1200px application measure. Border-separated rows instead of dashboard tiles; semantic blue primary controls, explicit destructive actions. Responsive single column below 760px. No remote assets, icons or decorative imagery. Exact transcript evidence and honest status are the signature interaction.

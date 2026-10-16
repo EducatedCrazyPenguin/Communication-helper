@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "rubric_version": "1",
+  "levels": {
+    "0": "Absent or contradictory with material listener consequence",
+    "1": "Partial, late or ambiguous; listener must repair",
+    "2": "Explicit and sufficient; listener can follow"
+  },
+  "dimensions": {
+    "context": {
+      "subject_named": "Topic or object established",
+      "purpose_stated": "Question or goal framed",
+      "audience_grounded": "Necessary background established",
+      "scope_bounded": "Scope and roles of mentioned things established"
+    },
+    "structure": {
+      "opening_mainline": "Opening provides an organizing point",
+      "logical_order": "Progression is followable",
+      "transitions": "Changes connected explicitly",
+      "closure": "Branches and overall explanation conclude"
+    },
+    "clarity": {
+      "entities_named": "Entities distinguishable",
+      "references_resolve": "Pronouns and references resolve",
+      "relations_explicit": "Relationships stated",
+      "conclusion_explicit": "Listener can identify the takeaway"
+    },
+    "directness": {
+      "answers_question": "Directly addresses prompt",
+      "answer_early": "Main answer precedes avoidable detail",
+      "relevance": "Detail serves the answer",
+      "concise_path": "No avoidable repeated or tangent route"
+    },
+    "precision": {
+      "distinctions": "Important differences explicit",
+      "qualifiers": "Meaningful quantities and limits clear",
+      "consistency": "Internally consistent statements",
+      "consequences": "Significance stated without invented facts"
+    },
+    "listener_load": {
+      "few_unresolved_entities": "References do not accumulate",
+      "grounded_terms": "Required terms grounded",
+      "closed_branches": "No unresolved branch stack",
+      "manageable_sequence": "Ideas introduced in usable order"
+    },
+    "delivery": {
+      "repetition_not_obstructive": "Repeats do not hide meaning",
+      "restarts_recovered": "False starts resolved",
+      "retrieval_not_obscuring": "Searching does not lose the point",
+      "fillers_not_obstructive": "Fillers or pauses do not prevent following"
+    }
+  },
+  "supplemental": {
+    "compare": {
+      "a_b_defined": "A and B defined",
+      "dimensions_named": "Comparison dimensions named",
+      "dimensionwise_comparison": "Compare along each dimension",
+      "consequence_recommendation": "Consequence or recommendation stated"
+    },
+    "proposal": {
+      "problem_audience": "Problem and audience clear",
+      "value_cost": "Value and cost described",
+      "evidence_risks": "Evidence and risks stated within available facts",
+      "specific_ask": "Specific ask"
+    },
+    "interview": {
+      "answers_requested_parts": "Answers requested parts",
+      "grounds_answer": "Grounded answer",
+      "resolves_gap": "Requested gap resolved",
+      "states_limits": "Limits stated"
+    }
+  },
+  "not_assessable": {
+    "level": null,
+    "required": [
+      "reason",
+      "missing_evidence"
+    ]
+  },
+  "dimension_score": "5 * floor(((sum(four_levels)/8*100)/5)+0.5), only if all four assessable",
+  "overall_score": null,
+  "higher_listener_load_score_means": "Easier to follow",
+  "limitations": [
+    "No external knowledge grading",
+    "No accent, grammar or code-mixing penalty",
+    "ASR uncertainty is not a speaking defect",
+    "Delivery separate from six communication dimensions"
+  ]
+}
